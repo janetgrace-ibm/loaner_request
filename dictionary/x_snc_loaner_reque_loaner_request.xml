@@ -18,6 +18,7 @@
                 <element label="Laptop" sequence="0" value="cmdb_ci_laptop"/>
                 <element label="Mobile Phone" sequence="1" value="cmdb_ci_mobile phone"/>
                 <element label="Projector" sequence="2" value="cmdb_ci_projector"/>
+                <element label="Computer" sequence="3" value="cmdb_ci_computer"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="u_location_to_be_used" type="string"/>
