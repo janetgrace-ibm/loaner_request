@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_flow_record_trigger">
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_loaner_reque_loaner_request">u_item_type=cmdb_ci_laptop^state=14<item endquery="false" field="u_item_type" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_laptop"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="14"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-25 16:45:05</sys_created_on>
+        <sys_id>e03ddb413d6f13007f447060d7579976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">59238da03d2713007f447060d7579908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">59238da03d2713007f447060d7579908</sys_scope>
+        <sys_update_name>sys_flow_record_trigger_e03ddb413d6f13007f447060d7579976</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-25 16:45:05</sys_updated_on>
+        <table>x_snc_loaner_reque_loaner_request</table>
+    </sys_flow_record_trigger>
+</record_update>

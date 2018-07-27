@@ -53,7 +53,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_loaner_reque_loaner_request" name="x_snc_loaner_reque_loaner_request" sys_domain="global" view="Default view">10c6dde43d2713007f447060d75799f5</sys_ui_form>
-            <sys_ui_section caption="Log" display_value="Log" name="x_snc_loaner_reque_loaner_request" sys_domain="global" view="Default view">dcc6dde43d2713007f447060d75799f3</sys_ui_section>
+            <sys_ui_section caption="Reminders" display_value="Reminders" name="x_snc_loaner_reque_loaner_request" sys_domain="global" view="Default view">dcc6dde43d2713007f447060d75799f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-07-23 17:42:25</sys_updated_on>
         </sys_ui_form_section>
