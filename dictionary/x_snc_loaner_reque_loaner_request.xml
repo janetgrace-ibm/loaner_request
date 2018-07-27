@@ -4,12 +4,13 @@
         <element label="Overdue count" max_length="40" name="overdue_count" type="integer"/>
         <element label="Overdue reminder" max_length="40" name="overdue_reminder" type="glide_date_time"/>
         <element label="Return reminder" max_length="40" name="return_reminder" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="cmdb_ci_ny" label="Depot" max_length="40" name="u_depot" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cmdb_ci_other" label="Depot" max_length="40" name="u_depot" type="string">
             <choice>
                 <element label="New York" sequence="0" value="cmdb_ci_ny"/>
                 <element label="London" sequence="1" value="cmdb_ci_london"/>
                 <element label="Santa Clara" sequence="2" value="cmdb_ci_sc"/>
                 <element label="Singapore" sequence="3" value="cmdb_ci_singapore"/>
+                <element label="Other" sequence="4" value="cmdb_ci_other"/>
             </choice>
         </element>
         <element label="End Date" mandatory="true" max_length="40" name="u_end_date" type="glide_date_time"/>

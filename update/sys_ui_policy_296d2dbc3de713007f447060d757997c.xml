@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_snc_loaner_reque_loaner_request">u_depot=cmdb_ci_singapore^EQ<item endquery="false" field="u_depot" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_singapore"/>
+        <conditions table="x_snc_loaner_reque_loaner_request">u_depot=cmdb_ci_other^EQ<item endquery="false" field="u_depot" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_other"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>296d2dbc3de713007f447060d757997c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Make other field visible and mandatory - Loaner Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">59238da03d2713007f447060d7579908</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Loaner Request">59238da03d2713007f447060d7579908</sys_scope>
         <sys_update_name>sys_ui_policy_296d2dbc3de713007f447060d757997c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-24 14:59:47</sys_updated_on>
+        <sys_updated_on>2018-07-27 20:18:19</sys_updated_on>
         <table>x_snc_loaner_reque_loaner_request</table>
         <ui_type>10</ui_type>
         <view/>
